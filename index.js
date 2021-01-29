@@ -7,7 +7,10 @@
 Write a greeter function that will display 
 'Hello World' to the console.
 */
-
+function greeter() {
+  console.log('Hello World')
+  }
+  greeter()
 
 
 
@@ -21,7 +24,9 @@ divide(9, 9) => 18
 
 */
 
-
+function add(3,9) {
+  return("3 + 9")
+}
 
 
 /* 3.
@@ -33,7 +38,9 @@ divide(3, 9) => -6
 divide(9, 9) => 0
 
 */
-
+function subtract(3,9) {
+  return("3 - 9")
+}
 
 
 
@@ -46,7 +53,9 @@ divide(3, 9) => 0.3333333
 divide(9, 9) => 1
 
 */
-
+function divide(9,3) {
+  return("9/3")
+}
 
 
 
@@ -60,7 +69,9 @@ multiply(3, 9) => 27
 multiply(9, 9) => 81
 
 */
-
+function multiply(3,9) {
+  return("3 * 9")
+}
 
 
 
@@ -74,6 +85,28 @@ yearsToDays(3) => 1095
 yearsToDays(9) => 3285
 
 */
+function years(2) {
+  var years = days;
+  var days = 500;
+  return("years")
+}
+
+
+
+/* 7.
+Write a function that will return the first element
+in a given array.
+
+
+Example:
+firstElement([0,1,2,3]) => 0
+yearsToDays(['hello', 'world']) => 'hello'
+
+*/
+function greeting(["hello", "hi"]) {
+  return("0")
+}
+
 
 
 
@@ -88,23 +121,9 @@ firstElement([0,1,2,3]) => 0
 yearsToDays(['hello', 'world']) => 'hello'
 
 */
-
-
-
-
-
-
-/* 7.
-Write a function that will return the first element
-in a given array.
-
-
-Example:
-firstElement([0,1,2,3]) => 0
-yearsToDays(['hello', 'world']) => 'hello'
-
-*/
-
+function greeting(["hello", "hi"]) {
+  return("0")
+}
 
 
 
@@ -120,7 +139,11 @@ minToSec(60) => 3600
 minToSec(1) => 60
 
 */
-
+function min(1) {
+  var min = sec;
+  var sec = 60;
+  return("min")
+}
 
 
 
@@ -137,7 +160,11 @@ secToHours(3600) => 1
 secToHours(1800) => 0.5
 
 */
-
+function sec(1) {
+  var sec = hours;
+  var hours = 5;
+  return("sec")
+}
 
 
 
@@ -153,4 +180,8 @@ Example:
 remainder(5, 2) => 1
 remainder(10, 7) => 0.5
 
-*/
+*/function divide(6,3) {
+  var divide = remainder;
+  remainder = 2;
+  return("6,3")
+}
